@@ -24,7 +24,7 @@ minium:
       - name: "Then I shouldn't see an email with:"
 # Configuration that can be injected in your tests
   config:
-    baseUrl: "https://minium.vilt.io/sample-app/"
+    baseUrl: "https://minium.vilt.io/sample-app/fail"
     uploadDir: ${minium.resources.dir}/upload
     loadingTimeSeconds: 1
     useHtml5FileUpload: false
